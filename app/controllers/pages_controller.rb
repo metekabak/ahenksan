@@ -15,8 +15,10 @@ class PagesController < ApplicationController
 
   def try
     pages = Dir.entries('./app/views/pages')
+    projects = Dir.entries('./app/views/pages/projects')
 
     return render "pages/#{params[:any]}" if pages.include?("#{params[:any]}.html.erb")
+    return render "pages/projects/#{params[:any]}" if projects.include?("#{params[:any]}.html.erb")
 
     render 'statuses/404', status: 404
   end

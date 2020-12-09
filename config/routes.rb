@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   post 'contact' => 'pages#contact'
   get ':any' => 'pages#try'
+  get 'projects/:any' => 'pages#try'
+
 end

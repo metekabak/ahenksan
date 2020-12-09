@@ -519,6 +519,10 @@ textarea:focus::-webkit-input-placeholder {
 	background-image: url(/themes/ahenksan/assets/img/slider/slide-4.jpg);
 }
 
+#home2 .hero-area-bg-3 {
+	background-image: url(/themes/ahenksan/assets/img/slider/slide-5.png);
+}
+
 #home3 .single-slide-item {
 	background-image: url(/themes/ahenksan/assets/img/slider/slide-5.jpg);
 }
@@ -544,7 +548,7 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .project-bg-4 {
-	background-image: url(/themes/ahenksan/assets/img/project/project-1-4.jpg);
+	background-image: url(/themes/ahenksan/assets/img/project/project-4.png);
 }
 
 .project-bg-5 {
