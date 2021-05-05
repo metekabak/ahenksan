@@ -18,7 +18,7 @@ class ApplicationController < ActionController::Base
       <link href="/themes/ahenksan/assets/css/barfiller.css" rel="stylesheet">
       <link href="/themes/ahenksan/assets/css/flaticon.css" rel="stylesheet">
       <link href="/themes/ahenksan/assets/css/owl.carousel.css" rel="stylesheet">
-      <link href="/themes/ahenksan/assets/css/style.css" rel="stylesheet">
+      <link href="/themes/ahenksan/assets/css/style_new.css" rel="stylesheet">
       <link href="/themes/ahenksan/assets/css/responsive.css" rel="stylesheet">
     '
   end
